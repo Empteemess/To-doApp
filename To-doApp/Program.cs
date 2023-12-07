@@ -112,7 +112,7 @@ namespace ConsoleApp1
 
                         if (int.TryParse(numberEdit, out editInput))
                         {
-                            if (editInput + 1 > list.Count())
+                            if (editInput > list.Count())
                             {
                                 Console.WriteLine("\n");
                                 Console.WriteLine($"Range is incorrect in the todo app there is only {list.Count()} item..");
