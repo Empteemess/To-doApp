@@ -7,6 +7,7 @@ class Program
         Console.WriteLine("Hello, World!");
         GetName();
         Console.WriteLine("Hello");
+        Console.WriteLine("Hello");
     }
 
     public static void GetName()
