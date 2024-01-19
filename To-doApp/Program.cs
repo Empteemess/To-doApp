@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
             while (true)
             {
-                Console.Write("Enter 'add', 'show', 'remove', 'edit', or 'end': ");
+                Console.Write("Enter 'add', 'show', 'remove', 'edit', or 'end' : ");
                 var userInput = Console.ReadLine().Trim().ToLower();
 
                 if (userInput == "add")
