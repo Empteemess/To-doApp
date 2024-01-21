@@ -4,19 +4,25 @@
     <projectFile>Test/Test.csproj</projectFile>
     <projectFile>TestProject/TestProject.csproj</projectFile>
     <projectFile>To-doApp/To-doApp.csproj</projectFile>
+    <projectFile>TrainintAboutTests/TrainintAboutTests.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1293df30-2820-408f-84cd-1f3c471014d2" name="Changes" comment="">
+    <list default="true" id="1293df30-2820-408f-84cd-1f3c471014d2" name="Changes" comment="as">
       <change afterPath="$PROJECT_DIR$/TestProject/Configurations/PersonConfiguration.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestProject/Entities/MyDbContext.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestProject/Entities/Number.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestProject/Entities/Person.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestProject/Methods/Method.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainintAboutTests/Animal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainintAboutTests/IAnimal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrainintAboutTests/Zoo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/TestProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/TestProject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To-doApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/To-doApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainintAboutTests/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrainintAboutTests/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.TestProject">
+  <component name="RunManager" selected=".NET Project.TrainintAboutTests">
     <configuration name="Test" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -125,7 +131,26 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TrainintAboutTests" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TrainintAboutTests/TrainintAboutTests.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Project.TrainintAboutTests" />
       <item itemvalue=".NET Project.Test" />
       <item itemvalue=".NET Project.TestProject" />
       <item itemvalue=".NET Project.To-doApp" />
@@ -142,7 +167,7 @@
       <workItem from="1705677926786" duration="4961000" />
       <workItem from="1705685013157" duration="1477000" />
       <workItem from="1705686534921" duration="12538000" />
-      <workItem from="1705827678679" duration="5977000" />
+      <workItem from="1705827678679" duration="10259000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -216,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705683131631</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new">
+      <option name="closed" value="true" />
+      <created>1705843862471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843862471</updated>
+    </task>
+    <task id="LOCAL-00011" summary="as">
+      <option name="closed" value="true" />
+      <created>1705843913515</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705843913515</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +284,7 @@
     <MESSAGE value="sad" />
     <MESSAGE value="asd" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="as" />
+    <option name="LAST_COMMIT_MESSAGE" value="as" />
   </component>
 </project>
