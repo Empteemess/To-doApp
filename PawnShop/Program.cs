@@ -1,4 +1,4 @@
-﻿namespace TrainintAboutTests;
+﻿namespace PawnShop;
 
 class Program
 {
