@@ -70,4 +70,26 @@ public class Method
                 return;
         }
     }
+
+    private void ShowPersons()
+    {
+        foreach (var item in context.Person)
+        {
+            Console.WriteLine($"{item.Id} {item.FirstName}");
+        }
+    }
+
+
+    public int DeleteNumberById()
+    {
+        ShowPersons();
+
+        Console.Write("Enter personId : ");
+        var personInputId = int.Parse(Console.ReadLine());
+        
+        var personInfo = context.Number.FirstOrDefault(x => x.Id == personInputId);
+        var phoneNumber = personInfo.PhoneNumber;
+        return phoneNumber;
+
+    }
 }
