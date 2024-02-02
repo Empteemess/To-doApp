@@ -45,6 +45,15 @@ class Program
         }
         
         Console.WriteLine($"\nMax number from list is {ss}");
+
+        //instance specific
+        var se = new Method();
+        
+        //static class specific
+        
+        
+        
+
     }
 }
 

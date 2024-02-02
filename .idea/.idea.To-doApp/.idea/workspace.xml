@@ -5,6 +5,7 @@
     <projectFile>PawnShop/PawnShop.csproj</projectFile>
     <projectFile>Test/Test.csproj</projectFile>
     <projectFile>TestProject/TestProject.csproj</projectFile>
+    <projectFile>TestTest/TestTest.csproj</projectFile>
     <projectFile>To-doApp/To-doApp.csproj</projectFile>
     <projectFile>TrainintAboutTests/TrainintAboutTests.csproj</projectFile>
     <projectFile>a/a.csproj</projectFile>
@@ -14,12 +15,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1293df30-2820-408f-84cd-1f3c471014d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestTest/Entities/Connections.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/Entities/MailPassword.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/Entities/MyDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/Entities/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PathHelper/PathHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PersonEnums/ConnectionEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PersonEnums/EditPersonEnums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PersonEnums/GenderEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PersonEnums/PhoneTypeEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestTest/PersonServiceMethods/PersonServiceMethods.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.To-doApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.To-doApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PawnShop/PawnShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PawnShop/PawnShop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PawnShop/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PawnShop/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/Methods/Method.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/Methods/Method.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/To-doApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/To-doApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestTest/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestTest/TestTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestTest/TestTest.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +65,13 @@
     &quot;.NET Project.PawnShop.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.Test.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.TestProject.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.TestTest.executor&quot;: &quot;Run&quot;,
     &quot;.NET Project.To-doApp.executor&quot;: &quot;Debug&quot;,
     &quot;.NET Project.TrainintAboutTests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;local&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,7 +89,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.PawnShop">
+  <component name="RunManager" selected=".NET Project.TestTest">
     <configuration name="Hack" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -133,6 +144,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TestTest" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TestTest/TestTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="To-doApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/To-doApp/bin/Debug/net8.0/To-doApp.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -170,6 +199,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue=".NET Project.TestTest" />
       <item itemvalue=".NET Project.Hack" />
       <item itemvalue=".NET Project.a" />
       <item itemvalue=".NET Project.PawnShop" />
@@ -199,7 +229,10 @@
       <workItem from="1706439772589" duration="7597000" />
       <workItem from="1706474153872" duration="31000" />
       <workItem from="1706474932074" duration="15000" />
-      <workItem from="1706639084721" duration="1872000" />
+      <workItem from="1706639084721" duration="6355000" />
+      <workItem from="1706737377926" duration="2639000" />
+      <workItem from="1706793266670" duration="23339000" />
+      <workItem from="1706898921098" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -343,5 +376,37 @@
     <MESSAGE value="asd" />
     <MESSAGE value="v" />
     <option name="LAST_COMMIT_MESSAGE" value="v" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestTest/PersonServiceMethods/PersonServiceMethods.cs</url>
+          <line>170</line>
+          <properties documentPath="D:\VisualStudio\repos\To-doApp\TestTest\PersonServiceMethods\PersonServiceMethods.cs" initialLine="165" containingFunctionPresentation="Method 'SearchByInput'">
+            <startOffsets>
+              <option value="5635" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5636" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestTest/PersonServiceMethods/PersonServiceMethods.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\VisualStudio\repos\To-doApp\TestTest\PersonServiceMethods\PersonServiceMethods.cs" initialLine="31" containingFunctionPresentation="Method 'Login'">
+            <startOffsets>
+              <option value="843" />
+            </startOffsets>
+            <endOffsets>
+              <option value="844" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
