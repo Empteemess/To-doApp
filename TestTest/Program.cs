@@ -1,13 +1,29 @@
-﻿namespace TestTest
+﻿using TestTest.Entities;
+
+namespace TestTest;
+
+public class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        var methods = new PersonServiceMethods.PersonServiceMethods();
+        while (true)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
-    
+            Console.Write("\nEnter Login or Register : ");
+            var userInput = Console.ReadLine().Trim().ToLower();
+            switch (userInput)
+            {
+                case "login":
+                    methods.Login();
+                    break;
+                case "register":
+                    methods.Register();
+                    break;
+                default:
+                    Console.Clear();
+                    Console.WriteLine("\nWrong Input\n");
+                    break;
+            }
         }
     }
 }
