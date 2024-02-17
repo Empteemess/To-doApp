@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hack", "Hack\Hack.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTest", "TestTest\TestTest.csproj", "{0E1F7BDD-50CE-4D07-B707-010FC7CF46E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForTest", "ForTest\ForTest.csproj", "{C3717369-0EF4-4057-8EFC-C97812BD7D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0E1F7BDD-50CE-4D07-B707-010FC7CF46E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E1F7BDD-50CE-4D07-B707-010FC7CF46E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E1F7BDD-50CE-4D07-B707-010FC7CF46E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3717369-0EF4-4057-8EFC-C97812BD7D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3717369-0EF4-4057-8EFC-C97812BD7D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3717369-0EF4-4057-8EFC-C97812BD7D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3717369-0EF4-4057-8EFC-C97812BD7D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
